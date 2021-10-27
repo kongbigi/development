@@ -1,0 +1,14 @@
+##...
+users:
+  - default
+  - name: terraform
+    gecos: terraform
+    primary_group: hashicorp
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin
+    ssh_import_id:
+    lock_passwd: false
+    ssh_authorized_keys:
+      -  # Paste your created SSH key here
+##...
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDR7KrtuM6B2yP1mubTkyp5k2sax93M5RNihqJ+7fqUsLStbciXcYBG8nH1v9BphTDi9FGsOXExY8RgTBCdEfLpPY8JHICi84/eQHUT+g1wxj27lfFfq4NEccfZDySBexQF6XVi/hYqNy+RtGjZ4bagbOQxRowB0TnTKs+I8t5X+bvBsrU3hTeJlhVp4Lbu3661eMEUTD3qB0cpS6XMDXgxoRt2T9TIYOvNeEvqNGT25QF7S07ttCVJr7Z6mci/XBSerWGFBgPp5DnrRijJWPCJptCdKwMBDK9RdY1++uVm4ZidBJq8sx0MD1CC79tub5NgvL20Xqa49zxf4mXeDDu5+m53cvR2cEz1FtBAaB/w6tVfFnCeHOn6vUpqsMaSj85TUOaVCjJJXXzA1MpFPGk2Vuyw61p0ZQ3W0/1r2V2MgHXzXTNNBpkDn6gAh8pSyqF3i/wDn0PiqvLVDhJogKx4FTsrJzBPSYbwcZFHFe701wYLykHcN3BF5iOKPCd8qiE= yeunkwankim@gmail.com
